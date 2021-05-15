@@ -1,0 +1,23 @@
+/******************************************************************************
+
+Developer AllanFelicio
+
+*******************************************************************************/
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+
+int a;
+		Scanner leitor = new Scanner(System.in);
+		System.out.println("Digite um valor:");
+		a = leitor.nextInt();
+		if(a%2==0){
+			System.out.println("É Par");
+		}else{
+		    System.out.println("É Ímpar");
+		}
+		System.out.println("FIM!"); 
+	}
+}
